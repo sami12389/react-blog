@@ -1,0 +1,37 @@
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainer{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.list{
+    padding: 10px;
+}
+
+.list:hover{
+    text-decoration: underline;
+}
+
+.profilePhoto{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+}

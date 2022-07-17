@@ -1,0 +1,36 @@
+.write{
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+}
+
+.addIcon{
+    border: 2px solid teal;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 30px;
+}
+
+.postPhotoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.textInputContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputBar{
+    padding: 8px;
+    margin: 15px;
+    width: 20rem;
+}
+
+
+.textBar{
+    padding: 8px;
+    width: 20rem;
+    height: 10rem;
+}

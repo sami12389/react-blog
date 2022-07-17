@@ -1,0 +1,30 @@
+.infoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutText{
+    max-width: 250px;
+}
+
+.aboutImage{
+    height: 250px;
+    width: 250px;
+}
+
+.categoriesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.categories{
+    padding: 15px;
+    padding-top: 0px;
+   
+}

@@ -1,0 +1,73 @@
+.productContainer{
+    max-width: 300px;
+    padding: 20px;
+}
+
+.blogTitle, .blogAuthor, .blogText{
+    margin: 0px;
+}
+
+.productTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productImage{
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+.readPostBtn{
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.readPostBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.postBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likePost{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.likePost .fa{
+    color: red;
+}
+
+.numberOfLikes{
+    padding: 4px;
+    font-size: 18px;
+}
+
+.blogPostDate{
+    color: teal;
+    font-size: 15px;
+}
+
+@media screen and (min-width:700px){
+    .productImage {
+        max-width: 300px;
+        height: 300px;
+        width: 400px;
+    }
+}

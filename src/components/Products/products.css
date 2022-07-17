@@ -1,0 +1,34 @@
+.productsPage{
+    display: flex;
+    flex-direction: column;
+}
+
+.productsContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+
+
+
+@media screen and (min-width:700px){
+    .productsPage{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .productsContainer{
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       flex-direction: row;
+        width: 80%;
+    }
+
+     .aboutContainer {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,49 @@
+.signup {
+    background-image: url('../NavBar/01.jpg');
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    margin: 0px 200px;
+    padding-top: 150px;
+
+}
+
+.formInput,
+.btnSubmit {
+    padding: 14px;
+    margin: 20px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.formInput:focus {
+    outline: none;
+    border: 2px solid turquoise;
+}
+
+.btnSubmit {
+    font-weight: 900;
+    background-color: black;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 2%;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+}
+
+.btnSubmit:hover {
+    color: turquoise;
+
+}
